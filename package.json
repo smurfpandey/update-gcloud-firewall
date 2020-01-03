@@ -1,0 +1,23 @@
+{
+  "name": "update-gcloud-firewall",
+  "version": "1.0.0",
+  "description": "Update firewall entry in gcloud to whitelist home IP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smurfpandey/update-gcloud-firewall.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smurfpandey/update-gcloud-firewall/issues"
+  },
+  "homepage": "https://github.com/smurfpandey/update-gcloud-firewall#readme",
+  "dependencies": {
+    "@google-cloud/compute": "^1.1.8",
+    "got": "^10.2.1"
+  }
+}
